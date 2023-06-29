@@ -93,12 +93,19 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "./node_modules/@fullcalendar/common/main.css",
+              "./node_modules/@fullcalendar/daygrid/main.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/fullcalendar/dist/fullcalendar.min.js"
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "bce3f670-648e-4fc9-a90a-fb3a624bf6fc"
   }
 }
